@@ -1,8 +1,10 @@
 @use "../abstracts" as *;
 
 .header {
+  position: relative;
+  z-index: 2;
   box-shadow: 
-    0 rem(10) rem(20) rgba($black, 0.1)
+    0 rem(10) rem(20) rgba($black, 0.4)
   ;
   background-color: rgb(242,242,242);
   padding: rem(20) 0;
