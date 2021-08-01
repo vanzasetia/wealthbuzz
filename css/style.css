@@ -366,6 +366,10 @@ img {
   color: #f2f2f2;
 }
 
+.hero__text {
+  max-width: 31.25rem;
+}
+
 .hero__title {
   font-size: 2.25rem;
 }
@@ -397,6 +401,10 @@ img {
   padding-bottom: 4.21875rem;
 }
 
+.framework__text {
+  max-width: 25rem;
+}
+
 .framework__title {
   border-left: 0.1875rem solid black;
   padding-left: 1rem;
@@ -425,6 +433,10 @@ img {
 
 .team-home {
   padding: 4.21875rem 0;
+}
+
+.team-home__text {
+  max-width: 31.25rem;
 }
 
 .team-home__title {
@@ -461,6 +473,7 @@ img {
 .testimonial__title {
   border-left: 0.1875rem solid black;
   padding-left: 1rem;
+  max-width: 25rem;
   font-size: 1.875rem;
 }
 
@@ -476,10 +489,12 @@ img {
 }
 
 .testimonial__item {
+  margin: 0 auto;
   border-radius: 0.5em;
   box-shadow: 0.5rem 0.5rem 1.25rem rgba(17, 17, 17, 0.15);
   background-color: #f2f2f2;
   padding: 1.5rem;
+  max-width: 31.25rem;
 }
 
 .testimonial__stars {
@@ -526,6 +541,10 @@ img {
 .contact-home {
   padding-top: 4.21875rem;
   padding-bottom: 5.625rem;
+}
+
+.contact-home__text {
+  max-width: 31.25rem;
 }
 
 .contact-home__title {
