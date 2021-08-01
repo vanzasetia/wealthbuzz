@@ -1,0 +1,29 @@
+@use "../abstracts" as *;
+
+.team-home {
+  padding: rem(67.5) 0;
+}
+
+.team-home__title {
+  border-left: rem(3) solid black;
+  padding-left: rem(16);
+  font-size: rem(26);  
+}
+
+.team-home__description {
+  margin-top: rem(20);
+}
+
+.team-home__btn {
+  display: inline-block;
+  margin-top: rem(10);
+  border: rem(2) solid $black;
+  border-radius: 1em;
+  padding: rem(14);
+  color: $black;
+  
+  @include on-event {
+    background-color: $black;
+    color: $white;
+  }
+}

@@ -221,38 +221,38 @@ body {
 }
 
 h1 {
-  margin: 0.625rem 0;
+  margin: 0.75rem 0;
   line-height: 1.4;
 }
 
 h2 {
-  margin: 0.625rem 0;
+  margin: 0.75rem 0;
   line-height: 1.4;
 }
 
 h3 {
-  margin: 0.625rem 0;
+  margin: 0.75rem 0;
   line-height: 1.4;
 }
 
 h4 {
-  margin: 0.625rem 0;
+  margin: 0.75rem 0;
   line-height: 1.4;
 }
 
 h5 {
-  margin: 0.625rem 0;
+  margin: 0.75rem 0;
   line-height: 1.4;
 }
 
 h6 {
-  margin: 0.625rem 0;
+  margin: 0.75rem 0;
   line-height: 1.4;
 }
 
 p,
 blockquote {
-  margin: 0.625rem 0;
+  margin: 0.75rem 0;
   line-height: 1.6;
 }
 
@@ -278,6 +278,18 @@ img {
   visibility: hidden;
   height: 0;
   width: 0.0625rem;
+}
+
+@media screen and (max-width: 64em) {
+  .hide-for-mobile {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 64.0625em) {
+  .hide-for-desktop {
+    display: none;
+  }
 }
 
 .header {
@@ -352,7 +364,8 @@ img {
 }
 
 .framework {
-  padding: 5.625rem 0;
+  padding-top: 8.4375rem;
+  padding-bottom: 4.21875rem;
 }
 
 .framework__title {
@@ -379,6 +392,33 @@ img {
 .framework__sub-title {
   font-size: 1.5rem;
   font-weight: 700;
+}
+
+.team-home {
+  padding: 4.21875rem 0;
+}
+
+.team-home__title {
+  border-left: 0.1875rem solid black;
+  padding-left: 1rem;
+  font-size: 1.625rem;
+}
+
+.team-home__description {
+  margin-top: 1.25rem;
+}
+
+.team-home__btn {
+  display: inline-block;
+  margin-top: 0.625rem;
+  border: 0.125rem solid #111111;
+  border-radius: 1em;
+  padding: 0.875rem;
+  color: #111111;
+}
+.team-home__btn:hover, .team-home__btn:active, .team-home__btn:focus {
+  background-color: #111111;
+  color: #f2f2f2;
 }
 
 .container {
