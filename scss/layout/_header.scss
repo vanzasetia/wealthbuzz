@@ -1,0 +1,47 @@
+@use "../abstracts" as *;
+
+.header {
+  box-shadow: 
+    0 rem(10) rem(20) rgba($black, 0.1)
+  ;
+  background-color: rgb(242,242,242);
+  padding: rem(20) 0;
+}
+
+.header__navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__home {
+  display: flex;
+  align-items: center;
+  color: $black;
+  font-size: rem(20);
+  font-weight: 700;
+  
+  @include focus-visible;
+}
+
+.header__list {
+  display: flex;
+}
+
+.header__item:not(:last-child) {
+  margin-right: rem(16);
+}
+
+.header__link {
+  color: $black;
+  font-size: rem(14);
+  
+  @include focus-visible;
+  @include on-event {
+    font-weight: 700;
+  }
+}
+
+.header__link--current {
+  font-weight: 700;
+}

@@ -214,7 +214,7 @@ html {
 }
 
 body {
-  background-color: #f2f2f2;
+  background-color: #e3e3e3;
   color: #111111;
   font-family: "Lato", sans-serif;
   font-size: 1rem;
@@ -278,4 +278,56 @@ img {
   visibility: hidden;
   height: 0;
   width: 0.0625rem;
+}
+
+.header {
+  box-shadow: 0 0.625rem 1.25rem rgba(17, 17, 17, 0.1);
+  background-color: #f2f2f2;
+  padding: 1.25rem 0;
+}
+
+.header__navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__home {
+  display: flex;
+  align-items: center;
+  color: #111111;
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+.header__home:focus-visible {
+  outline: 0.125rem dashed #111111;
+  outline-offset: 0.3125rem;
+}
+
+.header__list {
+  display: flex;
+}
+
+.header__item:not(:last-child) {
+  margin-right: 1rem;
+}
+
+.header__link {
+  color: #111111;
+  font-size: 0.875rem;
+}
+.header__link:focus-visible {
+  outline: 0.125rem dashed #111111;
+  outline-offset: 0.3125rem;
+}
+.header__link:hover, .header__link:active, .header__link:focus {
+  font-weight: 700;
+}
+
+.header__link--current {
+  font-weight: 700;
+}
+
+.container {
+  padding: 0 1rem;
 }
