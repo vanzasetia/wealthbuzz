@@ -491,7 +491,8 @@ img {
 }
 
 .contact-home {
-  padding: 4.21875rem 0;
+  padding-top: 4.21875rem;
+  padding-bottom: 5.625rem;
 }
 
 .contact-home__title {
@@ -515,6 +516,42 @@ img {
 .contact-home__btn:hover, .contact-home__btn:active, .contact-home__btn:focus {
   background-color: #111111;
   color: #f2f2f2;
+}
+
+.footer {
+  background-color: #222222;
+  padding: 4.21875rem 0;
+  color: #f2f2f2;
+}
+
+.footer__home {
+  display: flex;
+  align-items: center;
+  height: auto;
+  width: 11.25rem;
+  color: #f2f2f2;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.footer__attribution {
+  margin-top: 3.75rem;
+  text-align: center;
+}
+
+.footer__vanza {
+  color: #f2f2f2;
+  font-weight: 700;
+}
+
+.footer__social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer__item:not(:last-child) {
+  margin-right: 1.5rem;
 }
 
 .container {

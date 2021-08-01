@@ -1,0 +1,37 @@
+@use "../abstracts" as *;
+
+.footer {
+  background-color: rgb(34,34,34);
+  padding: rem(67.5) 0;
+  color: rgb(242, 242, 242);
+}
+
+.footer__home {
+  display: flex;
+  align-items: center;
+  height: auto;
+  width: rem(180);
+  color: rgb(242, 242, 242);
+  font-size: rem(24);
+  font-weight: 700;
+}
+
+.footer__attribution {
+  margin-top: rem(60);
+  text-align: center;
+}
+
+.footer__vanza {
+  color: rgb(242, 242, 242);
+  font-weight: 700;
+}
+
+.footer__social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer__item:not(:last-child) {
+  margin-right: rem(24);
+}
