@@ -24,6 +24,20 @@
   font-weight: 700;
   
   @include focus-visible;
+  
+  @include breakpoint-up("tiny") {
+    font-size: rem(24);
+  }
+}
+
+.header__logo {
+  height: rem(30);
+  width: rem(30);
+  
+  @include breakpoint-up("tiny") {
+    height: rem(40);
+    width: rem(40);
+  }
 }
 
 .header__list {
@@ -32,6 +46,10 @@
 
 .header__item:not(:last-child) {
   margin-right: rem(18);
+  
+  @include breakpoint-up("tiny") {
+    margin-right: rem(30);
+  }
 }
 
 .header__link {
@@ -41,6 +59,10 @@
   @include focus-visible;
   @include on-event {
     font-weight: 700;
+  }
+  
+  @include breakpoint-up("tiny") {
+    font-size: rem(16);
   }
 }
 

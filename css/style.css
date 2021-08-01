@@ -317,6 +317,22 @@ img {
   outline: 0.125rem dashed #111111;
   outline-offset: 0.3125rem;
 }
+@media screen and (min-width: 31.25em) {
+  .header__home {
+    font-size: 1.5rem;
+  }
+}
+
+.header__logo {
+  height: 1.875rem;
+  width: 1.875rem;
+}
+@media screen and (min-width: 31.25em) {
+  .header__logo {
+    height: 2.5rem;
+    width: 2.5rem;
+  }
+}
 
 .header__list {
   display: flex;
@@ -324,6 +340,11 @@ img {
 
 .header__item:not(:last-child) {
   margin-right: 1.125rem;
+}
+@media screen and (min-width: 31.25em) {
+  .header__item:not(:last-child) {
+    margin-right: 1.875rem;
+  }
 }
 
 .header__link {
@@ -336,6 +357,11 @@ img {
 }
 .header__link:hover, .header__link:active, .header__link:focus {
   font-weight: 700;
+}
+@media screen and (min-width: 31.25em) {
+  .header__link {
+    font-size: 1rem;
+  }
 }
 
 .header__link--current {
