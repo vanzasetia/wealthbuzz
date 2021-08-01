@@ -343,11 +343,15 @@ img {
 }
 
 .hero {
-  background: url("../images/hero-bg.jpg") no-repeat center center/cover;
+  background: url("../images/hero-bg-mobile.jpg") no-repeat center center/cover;
   background-color: #333333;
   background-blend-mode: overlay;
   padding: 7.5rem 0rem;
   color: #f2f2f2;
+}
+
+.hero__title {
+  font-size: 2.25rem;
 }
 
 .hero__btn {
@@ -357,6 +361,10 @@ img {
   border-radius: 1em;
   padding: 0.875rem;
   color: #f2f2f2;
+}
+.hero__btn:focus-visible {
+  outline: 0.125rem dashed #111111;
+  outline-offset: 0.3125rem;
 }
 .hero__btn:hover, .hero__btn:active, .hero__btn:focus {
   background-color: #f2f2f2;
@@ -415,6 +423,10 @@ img {
   border-radius: 1em;
   padding: 0.875rem;
   color: #111111;
+}
+.team-home__btn:focus-visible {
+  outline: 0.125rem dashed #111111;
+  outline-offset: 0.3125rem;
 }
 .team-home__btn:hover, .team-home__btn:active, .team-home__btn:focus {
   background-color: #111111;
@@ -513,6 +525,10 @@ img {
   padding: 0.875rem;
   color: #111111;
 }
+.contact-home__btn:focus-visible {
+  outline: 0.125rem dashed #111111;
+  outline-offset: 0.3125rem;
+}
 .contact-home__btn:hover, .contact-home__btn:active, .contact-home__btn:focus {
   background-color: #111111;
   color: #f2f2f2;
@@ -533,6 +549,13 @@ img {
   font-size: 1.5rem;
   font-weight: 700;
 }
+.footer__home:focus-visible {
+  border: 0.125rem dashed #f2f2f2;
+}
+
+.footer__copyright {
+  margin-top: 1.25rem;
+}
 
 .footer__attribution {
   margin-top: 3.75rem;
@@ -543,15 +566,38 @@ img {
   color: #f2f2f2;
   font-weight: 700;
 }
+.footer__vanza:focus-visible {
+  border: 0.125rem dashed #f2f2f2;
+}
+.footer__vanza:hover, .footer__vanza:active, .footer__vanza:focus {
+  text-decoration: underline;
+}
 
 .footer__social {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 1.25rem;
 }
 
 .footer__item:not(:last-child) {
-  margin-right: 1.5rem;
+  margin-right: 0.75rem;
+}
+
+.footer__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0.125rem dotted transparent;
+  padding: 0.25rem;
+  height: 3.125rem;
+  width: 3.125rem;
+}
+.footer__link:focus-visible {
+  border-color: #f2f2f2;
+}
+.footer__link:hover, .footer__link:active, .footer__link:focus {
+  border-color: #f2f2f2;
 }
 
 .container {

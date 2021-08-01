@@ -23,6 +23,7 @@
   padding: rem(14);
   color: $black;
   
+  @include focus-visible;
   @include on-event {
     background-color: $black;
     color: $white;

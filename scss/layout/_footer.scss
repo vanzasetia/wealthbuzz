@@ -14,6 +14,14 @@
   color: rgb(242, 242, 242);
   font-size: rem(24);
   font-weight: 700;
+  
+  &:focus-visible {
+    border: rem(2) dashed rgb(242, 242, 242);
+  }
+}
+
+.footer__copyright {
+  margin-top: rem(20);
 }
 
 .footer__attribution {
@@ -24,14 +32,41 @@
 .footer__vanza {
   color: rgb(242, 242, 242);
   font-weight: 700;
+  
+  &:focus-visible {
+    border: rem(2) dashed rgb(242, 242, 242);
+  }
+  
+  @include on-event {
+    text-decoration: underline;
+  }
 }
 
 .footer__social {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: rem(20);
 }
 
 .footer__item:not(:last-child) {
-  margin-right: rem(24);
+  margin-right: rem(12);
+}
+
+.footer__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: rem(2) dotted transparent;
+  padding: rem(4);
+  height: rem(50);
+  width: rem(50);
+  
+  &:focus-visible {
+    border-color: rgb(242, 242, 242);
+  }
+  
+  @include on-event {
+    border-color: rgb(242, 242, 242);
+  }
 }
