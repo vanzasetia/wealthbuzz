@@ -490,6 +490,33 @@ img {
   font-size: 0.875rem;
 }
 
+.contact-home {
+  padding: 4.21875rem 0;
+}
+
+.contact-home__title {
+  border-left: 0.1875rem solid black;
+  padding-left: 1rem;
+  font-size: 1.875rem;
+}
+
+.contact-home__description {
+  margin-top: 1.25rem;
+}
+
+.contact-home__btn {
+  display: inline-block;
+  margin-top: 0.625rem;
+  border: 0.125rem solid #111111;
+  border-radius: 1em;
+  padding: 0.875rem;
+  color: #111111;
+}
+.contact-home__btn:hover, .contact-home__btn:active, .contact-home__btn:focus {
+  background-color: #111111;
+  color: #f2f2f2;
+}
+
 .container {
   padding: 0 1rem;
 }
