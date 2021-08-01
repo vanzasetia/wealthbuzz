@@ -71,11 +71,6 @@
   <link rel="stylesheet" href="./css/style.css">
   <!-- Minified CSS -->
   <!-- <link rel="stylesheet" href="./css/style.min.css"> -->
-  <!-- Android Dev Tools -->
-  <script src="//cdn.jsdelivr.net/npm/eruda"></script>
-  <script>
-    eruda.init();
-  </script>
   <!-- Mailgo -->
   <script defer src="./js/vendor/mailgo.min.js"></script>
   <title>WealthBuzz | Fictional Business Advisory</title>
@@ -85,7 +80,7 @@
   <!-- Header -->
   <header class="header">
     <div class="container">
-      <nav class="header__navigation">
+      <nav class="header__navigation" aria-label="primary">
         <a href="index.html" class="header__home">
           <img src="./icons/w-icon.svg" alt="" class="header__logo" aria-hidden="true" width="30" height="30">
           WealthBuzz
@@ -266,6 +261,19 @@
           Copyright <span class="js-year">2021</span> WealthBuzz. All rights reserved.
         </p>
       </div>
+      <nav class="footer__navigation footer-nav" aria-label="secondary">
+        <ul class="footer-nav__list">
+          <li class="footer-nav__item">
+            <a href="index.html" class="footer-nav__link">Home</a>
+          </li>
+          <li class="footer-nav__item">
+            <a href="index.html" class="footer-nav__link">Team</a>
+          </li>
+          <li class="footer-nav__item">
+            <a href="index.html" class="footer-nav__link">Contact Us</a>
+          </li>
+        </ul>
+      </nav>
       <div class="footer__attribution">
         <p class="footer__description">
           Designed and Coded by <a href="https://github.com/vanzasetia" class="footer__vanza" rel="noopener noreferrer" target="_blank">Vanza Setia.</a>
