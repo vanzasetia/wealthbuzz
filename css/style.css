@@ -296,7 +296,7 @@ img {
   display: flex;
   align-items: center;
   color: #111111;
-  font-size: 1.25rem;
+  font-size: 1.125rem;
   font-weight: 700;
 }
 .header__home:focus-visible {
@@ -309,7 +309,7 @@ img {
 }
 
 .header__item:not(:last-child) {
-  margin-right: 1rem;
+  margin-right: 1.125rem;
 }
 
 .header__link {

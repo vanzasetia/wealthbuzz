@@ -18,7 +18,7 @@
   display: flex;
   align-items: center;
   color: $black;
-  font-size: rem(20);
+  font-size: rem(18);
   font-weight: 700;
   
   @include focus-visible;
@@ -29,7 +29,7 @@
 }
 
 .header__item:not(:last-child) {
-  margin-right: rem(16);
+  margin-right: rem(18);
 }
 
 .header__link {
