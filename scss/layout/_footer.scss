@@ -24,8 +24,28 @@
   margin-top: rem(20);
 }
 
+.footer__navigation {
+  margin: rem(60) 0;
+}
+
+.footer-nav__link {
+  color: rgb(242, 242, 242);
+  
+  &:focus-visible {
+    outline: rem(2) dashed rgb(242, 242, 242);
+    outline-offset: rem(5);
+  }
+  
+  @include on-event {
+    text-decoration: underline;
+  }
+}
+
+.footer-nav__item:not(:last-child) {
+  margin-bottom: rem(20);
+}
+
 .footer__attribution {
-  margin-top: rem(60);
   text-align: center;
 }
 

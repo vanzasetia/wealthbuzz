@@ -557,8 +557,26 @@ img {
   margin-top: 1.25rem;
 }
 
+.footer__navigation {
+  margin: 3.75rem 0;
+}
+
+.footer-nav__link {
+  color: #f2f2f2;
+}
+.footer-nav__link:focus-visible {
+  outline: 0.125rem dashed #f2f2f2;
+  outline-offset: 0.3125rem;
+}
+.footer-nav__link:hover, .footer-nav__link:active, .footer-nav__link:focus {
+  text-decoration: underline;
+}
+
+.footer-nav__item:not(:last-child) {
+  margin-bottom: 1.25rem;
+}
+
 .footer__attribution {
-  margin-top: 3.75rem;
   text-align: center;
 }
 
