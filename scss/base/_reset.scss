@@ -55,14 +55,14 @@ body {
 // h1 - h6
 @for $i from 1 through 6 {
   h#{$i} {
-    margin: rem(10) 0;
+    margin: rem(12) 0;
     line-height: 1.4;
   }
 }
 
 p,
 blockquote {
-  margin: rem(10) 0;
+  margin: rem(12) 0;
   line-height: 1.6;
 }
 
@@ -89,4 +89,17 @@ img {
   visibility: hidden;
   height: 0;
   width: rem(1);
+}
+
+// Hide Classes
+.hide-for-mobile {
+  @media screen and (max-width: 64em) {
+    display: none;
+  }
+}
+
+.hide-for-desktop {
+  @media screen and (min-width: 64.0625em) {
+    display: none;
+  }
 }
