@@ -371,7 +371,7 @@ img {
 .framework__title {
   border-left: 0.1875rem solid black;
   padding-left: 1rem;
-  font-size: 1.625rem;
+  font-size: 1.875rem;
 }
 
 .framework__description--strong {
@@ -401,7 +401,7 @@ img {
 .team-home__title {
   border-left: 0.1875rem solid black;
   padding-left: 1rem;
-  font-size: 1.625rem;
+  font-size: 1.875rem;
 }
 
 .team-home__description {
@@ -419,6 +419,75 @@ img {
 .team-home__btn:hover, .team-home__btn:active, .team-home__btn:focus {
   background-color: #111111;
   color: #f2f2f2;
+}
+
+.testimonial {
+  padding: 4.21875rem 0;
+}
+
+.testimonial__title {
+  border-left: 0.1875rem solid black;
+  padding-left: 1rem;
+  font-size: 1.875rem;
+}
+
+.testimonial__list {
+  display: grid;
+  gap: 3.75rem;
+  margin-top: 3.75rem;
+}
+@supports not (gap: 60) {
+  .testimonial__list {
+    grid-gap: 60;
+  }
+}
+
+.testimonial__item {
+  border-radius: 0.5em;
+  box-shadow: 0.5rem 0.5rem 1.25rem rgba(17, 17, 17, 0.15);
+  background-color: #f2f2f2;
+  padding: 1.5rem;
+}
+
+.testimonial__stars {
+  display: flex;
+  justify-content: center;
+}
+
+.testimonial__star:not(:last-child) {
+  margin-right: 0.625rem;
+}
+
+.testimonial__quote {
+  margin: 1.25rem 0;
+}
+
+.testimonial__figcaption {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.testimonial__photo {
+  margin-right: 0.875rem;
+  border-radius: 50%;
+  height: 3.125rem;
+  width: 3.125rem;
+}
+
+.testimonial__name,
+.testimonial__job {
+  margin: 0;
+  text-transform: capitalize;
+}
+
+.testimonial__name {
+  font-weight: 700;
+}
+
+.testimonial__job {
+  font-size: 0.875rem;
 }
 
 .container {

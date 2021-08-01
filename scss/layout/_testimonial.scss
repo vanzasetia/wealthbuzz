@@ -1,0 +1,73 @@
+@use "../abstracts" as *;
+
+.testimonial {
+  padding: rem(67.5) 0;
+}
+
+.testimonial__title {
+  border-left: rem(3) solid black;
+  padding-left: rem(16);
+  font-size: rem(30);
+}
+
+.testimonial__list {
+  $gap: 60;
+  
+  display: grid;
+  gap: rem($gap);
+  margin-top: rem(60);
+  
+  @supports not (gap: $gap) {
+    grid-gap: $gap;
+  }
+}
+
+.testimonial__item {
+  border-radius: 0.5em;
+  box-shadow: 
+    rem(8) rem(8) rem(20) rgba($black, 0.15)
+  ;
+  background-color: rgb(242, 242, 242);
+  padding: rem(24);
+}
+
+.testimonial__stars {
+  display: flex;
+  justify-content: center;
+}
+
+.testimonial__star:not(:last-child) {
+  margin-right: rem(10);
+}
+
+.testimonial__quote {
+  margin: rem(20) 0;
+}
+
+.testimonial__figcaption {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.testimonial__photo {
+  margin-right: rem(14);
+  border-radius: 50%;
+  height: rem(50);
+  width: rem(50);
+}
+
+.testimonial__name,
+.testimonial__job {
+  margin: 0;
+  text-transform: capitalize;
+}
+
+.testimonial__name {
+  font-weight: 700;
+}
+
+.testimonial__job {
+  font-size: rem(14);
+}
