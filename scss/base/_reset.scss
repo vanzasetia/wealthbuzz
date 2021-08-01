@@ -31,16 +31,6 @@
   padding: 0;
 }
 
-::selection {
-  background-color: $selection-bg;
-  color: $white;
-}
-
-::-moz-selection {
-  background-color: $selection-bg;
-  color: $white;
-}
-
 html {
   font-size: $default-html-font-size;
 }
