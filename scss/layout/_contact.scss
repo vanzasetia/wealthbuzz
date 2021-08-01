@@ -1,7 +1,8 @@
 @use "../abstracts" as *;
 
 .contact-home {
-  padding: rem(67.5) 0;
+  padding-top: rem(67.5);
+  padding-bottom: rem(90);
 }
 
 .contact-home__title {
