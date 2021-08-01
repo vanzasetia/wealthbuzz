@@ -334,7 +334,7 @@ img {
   background: url("../images/hero-bg.jpg") no-repeat center center/cover;
   background-color: #333333;
   background-blend-mode: overlay;
-  padding: 6.25rem 0rem;
+  padding: 7.5rem 0rem;
   color: #f2f2f2;
 }
 
@@ -343,12 +343,42 @@ img {
   margin-top: 0.625rem;
   border: 0.125rem solid #f2f2f2;
   border-radius: 1em;
-  padding: 1rem;
+  padding: 0.875rem;
   color: #f2f2f2;
 }
 .hero__btn:hover, .hero__btn:active, .hero__btn:focus {
   background-color: #f2f2f2;
   color: #111111;
+}
+
+.framework {
+  padding: 5.625rem 0;
+}
+
+.framework__title {
+  border-left: 0.1875rem solid black;
+  padding-left: 1rem;
+  font-size: 1.625rem;
+}
+
+.framework__description--strong {
+  font-size: 1.875rem;
+}
+
+.framework__list {
+  display: grid;
+  margin-top: 3.75rem;
+  gap: 2.5rem;
+}
+@supports not (gap: 2.5rem) {
+  .framework__list {
+    grid-gap: 2.5rem;
+  }
+}
+
+.framework__sub-title {
+  font-size: 1.5rem;
+  font-weight: 700;
 }
 
 .container {

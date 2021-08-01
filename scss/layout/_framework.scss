@@ -1,0 +1,32 @@
+@use "../abstracts" as *;
+
+.framework {
+  padding: rem(90) 0;
+}
+
+.framework__title {
+  border-left: rem(3) solid black;
+  padding-left: rem(16);
+  font-size: rem(26);
+}
+
+.framework__description--strong {
+  font-size: rem(30);
+}
+
+.framework__list {
+  $gap: 40;
+  
+  display: grid;
+  margin-top: rem(60);
+  gap: rem($gap);
+  
+  @supports not (gap: rem($gap)) {
+    grid-gap: rem($gap);
+  }
+}
+
+.framework__sub-title {
+  font-size: rem(24);
+  font-weight: 700;
+}
