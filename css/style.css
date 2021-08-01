@@ -221,38 +221,38 @@ body {
 }
 
 h1 {
-  margin: 0.875rem 0;
+  margin: 0.625rem 0;
   line-height: 1.4;
 }
 
 h2 {
-  margin: 0.875rem 0;
+  margin: 0.625rem 0;
   line-height: 1.4;
 }
 
 h3 {
-  margin: 0.875rem 0;
+  margin: 0.625rem 0;
   line-height: 1.4;
 }
 
 h4 {
-  margin: 0.875rem 0;
+  margin: 0.625rem 0;
   line-height: 1.4;
 }
 
 h5 {
-  margin: 0.875rem 0;
+  margin: 0.625rem 0;
   line-height: 1.4;
 }
 
 h6 {
-  margin: 0.875rem 0;
+  margin: 0.625rem 0;
   line-height: 1.4;
 }
 
 p,
 blockquote {
-  margin: 0.875rem 0;
+  margin: 0.625rem 0;
   line-height: 1.6;
 }
 
@@ -281,7 +281,9 @@ img {
 }
 
 .header {
-  box-shadow: 0 0.625rem 1.25rem rgba(17, 17, 17, 0.1);
+  position: relative;
+  z-index: 2;
+  box-shadow: 0 0.625rem 1.25rem rgba(17, 17, 17, 0.4);
   background-color: #f2f2f2;
   padding: 1.25rem 0;
 }
@@ -326,6 +328,27 @@ img {
 
 .header__link--current {
   font-weight: 700;
+}
+
+.hero {
+  background: url("../images/hero-bg.jpg") no-repeat center center/cover;
+  background-color: #333333;
+  background-blend-mode: overlay;
+  padding: 6.25rem 0rem;
+  color: #f2f2f2;
+}
+
+.hero__btn {
+  display: inline-block;
+  margin-top: 0.625rem;
+  border: 0.125rem solid #f2f2f2;
+  border-radius: 1em;
+  padding: 1rem;
+  color: #f2f2f2;
+}
+.hero__btn:hover, .hero__btn:active, .hero__btn:focus {
+  background-color: #f2f2f2;
+  color: #111111;
 }
 
 .container {

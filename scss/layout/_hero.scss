@@ -1,0 +1,23 @@
+@use "../abstracts" as *;
+
+.hero {
+  background: url("../images/hero-bg.jpg") no-repeat center center/cover;
+  background-color: rgb(51, 51, 51);
+  background-blend-mode: overlay;
+  padding: rem(100) rem(0);
+  color: rgb(242, 242, 242);
+}
+
+.hero__btn {
+  display: inline-block;
+  margin-top: rem(10);
+  border: rem(2) solid rgb(242, 242, 242);
+  border-radius: 1em;
+  padding: rem(16);
+  color: $white;
+  
+  @include on-event {
+    background-color: rgb(242, 242, 242);
+    color: $black;
+  }
+}
