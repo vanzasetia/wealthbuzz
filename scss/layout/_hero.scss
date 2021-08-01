@@ -10,6 +10,10 @@
 
 .hero__title {
   font-size: rem(36);
+  
+  @include breakpoint-up("tiny") {
+    font-size: rem(50);
+  }
 }
 
 .hero__btn {

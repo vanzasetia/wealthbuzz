@@ -379,6 +379,11 @@ img {
 .hero__title {
   font-size: 2.25rem;
 }
+@media screen and (min-width: 31.25em) {
+  .hero__title {
+    font-size: 3.125rem;
+  }
+}
 
 .hero__btn {
   display: inline-block;
