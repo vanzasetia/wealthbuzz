@@ -445,8 +445,26 @@ img {
   padding: 4.21875rem 0;
 }
 
+@media screen and (min-width: 57.5em) {
+  .team-home .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2.5rem;
+  }
+  @supports not (gap: 2.5rem) {
+    .team-home .container {
+      grid-gap: 2.5rem;
+    }
+  }
+}
+
 .team-home__text {
   max-width: 31.25rem;
+}
+@media screen and (min-width: 57.5em) {
+  .team-home__text {
+    max-width: 100%;
+  }
 }
 
 .team-home__title {

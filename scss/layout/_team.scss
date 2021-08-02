@@ -4,8 +4,26 @@
   padding: rem(67.5) 0;
 }
 
+.team-home .container {
+  
+  @include breakpoint-up("small") {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr
+    );
+    gap: rem(40);
+    
+    @supports not (gap: rem(40)) {
+      grid-gap: rem(40);
+    }
+  }
+}
+
 .team-home__text {
   max-width: rem(500);
+  
+  @include breakpoint-up("small") {
+    max-width: 100%;
+  }
 }
 
 .team-home__title {
