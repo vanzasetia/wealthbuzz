@@ -69,28 +69,14 @@
   />
   <!-- Directly Used Preloaded Fonts -->
   <style>
-    @font-face {
-      font-family: "Lato";
-      font-style: normal;
-      font-weight: 400;
-      font-display: swap;
-      src: url("../fonts/Lato-Regular.woff2") format("woff2"), 
-           url("../fonts/Lato-Regular.woff") format("woff");
-    }
-    
-    @font-face {
-      font-family: "Lato";
-      font-style: normal;
-      font-weight: 700;
-      font-display: swap;
-      src: url("../fonts/Lato-Bold.woff2") format("woff2"), 
-           url("../fonts/Lato-Bold.woff") format("woff");
-    }
+    @font-face{font-family:"Lato";font-style:normal;font-weight:400;font-display:swap;src:url("../fonts/Lato-Regular.woff2") format("woff2"), url("../fonts/Lato-Regular.woff") format("woff")}@font-face{font-family:"Lato";font-style:normal;font-weight:700;font-display:swap;src:url("../fonts/Lato-Bold.woff2") format("woff2"), url("../fonts/Lato-Bold.woff") format("woff")}
   </style>
   <!-- Current CSS -->
   <link rel="stylesheet" href="./css/style.css">
   <!-- Minified CSS -->
   <!-- <link rel="stylesheet" href="./css/style.min.css"> -->
+  <!-- JavaScript -->
+  <script defer src="./js/script.js"></script>
   <!-- Mailgo -->
   <script defer src="./js/vendor/mailgo.min.js"></script>
   <title>WealthBuzz | Fictional Business Advisory</title>
@@ -282,7 +268,7 @@
           WealthBuzz
         </a>
         <p class="footer__copyright">
-          Copyright <span class="js-year">2021</span> WealthBuzz. All rights reserved.
+          Copyright <span class="js-year"></span> WealthBuzz. All rights reserved.
         </p>
       </div>
       <nav class="footer__navigation footer-nav" aria-label="secondary">
