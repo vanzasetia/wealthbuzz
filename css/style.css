@@ -743,13 +743,22 @@ img {
 }
 
 .team__title {
+  margin-bottom: 1.25rem;
   border-left: 0.1875rem solid #111111;
   padding-left: 1rem;
+  text-transform: uppercase;
   font-size: 1.875rem;
 }
 
 .team__list {
+  display: grid;
+  gap: 3.75rem;
   margin-top: 3.75rem;
+}
+@supports not (gap: 3.75rem) {
+  .team__list {
+    grid-gap: 3.75rem;
+  }
 }
 
 .team__person {
@@ -764,6 +773,8 @@ img {
 }
 
 .team__photo {
+  height: 9.375rem;
+  width: 9.375rem;
   border-radius: 2em;
 }
 
