@@ -270,13 +270,13 @@ img {
   width: 0.0625rem;
 }
 
-@media screen and (max-width: 57.4375em) {
+@media screen and (max-width: 58.9375em) {
   .hide-for-mobile {
     display: none;
   }
 }
 
-@media screen and (min-width: 57.5em) {
+@media screen and (min-width: 59em) {
   .hide-for-desktop {
     display: none;
   }
@@ -404,7 +404,7 @@ img {
 .framework__text {
   max-width: 25rem;
 }
-@media screen and (min-width: 57.5em) {
+@media screen and (min-width: 59em) {
   .framework__text {
     max-width: 100%;
   }
@@ -430,7 +430,7 @@ img {
     grid-gap: 2.5rem;
   }
 }
-@media screen and (min-width: 57.5em) {
+@media screen and (min-width: 59em) {
   .framework__list {
     grid-template-columns: repeat(3, 1fr);
   }
@@ -445,7 +445,7 @@ img {
   padding: 4.21875rem 0;
 }
 
-@media screen and (min-width: 57.5em) {
+@media screen and (min-width: 59em) {
   .team-home .container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -461,7 +461,7 @@ img {
 .team-home__text {
   max-width: 31.25rem;
 }
-@media screen and (min-width: 57.5em) {
+@media screen and (min-width: 59em) {
   .team-home__text {
     max-width: 100%;
   }
