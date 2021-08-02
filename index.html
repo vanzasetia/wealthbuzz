@@ -67,6 +67,26 @@
     type="font/woff2"
     crossorigin
   />
+  <!-- Directly Used Preloaded Fonts -->
+  <style>
+    @font-face {
+      font-family: "Lato";
+      font-style: normal;
+      font-weight: 400;
+      font-display: swap;
+      src: url("../fonts/Lato-Regular.woff2") format("woff2"), 
+           url("../fonts/Lato-Regular.woff") format("woff");
+    }
+    
+    @font-face {
+      font-family: "Lato";
+      font-style: normal;
+      font-weight: 700;
+      font-display: swap;
+      src: url("../fonts/Lato-Bold.woff2") format("woff2"), 
+           url("../fonts/Lato-Bold.woff") format("woff");
+    }
+  </style>
   <!-- Current CSS -->
   <link rel="stylesheet" href="./css/style.css">
   <!-- Minified CSS -->
@@ -162,7 +182,7 @@
            </p>
            <a href="team.html" class="team-home__btn">Team Profiles</a>
         </div>
-        <img src="./images/team-image.jpg" alt="" class="team-home__image hide-for-mobile" aria-hidden="true">
+        <img src="./images/team.jpg" alt="" class="team-home__image hide-for-mobile" aria-hidden="true">
       </div>
     </section>
     <!-- END OF Team -->
