@@ -691,18 +691,18 @@ img {
   }
 }
 
-.footer-nav__link {
+.footer__link {
   color: #f2f2f2;
 }
-.footer-nav__link:focus-visible {
+.footer__link:focus-visible {
   outline: 0.125rem dashed #00befb;
   outline-offset: 0.3125rem;
 }
-.footer-nav__link:hover, .footer-nav__link:active, .footer-nav__link:focus {
+.footer__link:hover, .footer__link:active, .footer__link:focus {
   text-decoration: underline;
 }
 
-.footer-nav__item:not(:last-child) {
+.footer__item:not(:last-child) {
   margin-bottom: 1.5625rem;
 }
 
@@ -714,30 +714,30 @@ img {
   margin-top: 0;
 }
 
-.footer__vanza {
+.footer__github {
   color: #f2f2f2;
   font-weight: 700;
 }
-.footer__vanza:focus-visible {
+.footer__github:focus-visible {
   outline: 0.125rem dashed #00befb;
   outline-offset: 0.3125rem;
 }
-.footer__vanza:hover, .footer__vanza:active, .footer__vanza:focus {
+.footer__github:hover, .footer__github:active, .footer__github:focus {
   text-decoration: underline;
 }
 
-.footer__social {
+.social {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 1.25rem;
 }
 
-.footer__item:not(:last-child) {
+.social__item:not(:last-child) {
   margin-right: 0.75rem;
 }
 
-.footer__link {
+.social__link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -746,11 +746,11 @@ img {
   height: 3.125rem;
   width: 3.125rem;
 }
-.footer__link:focus-visible {
+.social__link:focus-visible {
   outline: 0.125rem dashed #00befb;
   outline-offset: 0.3125rem;
 }
-.footer__link:hover, .footer__link:active, .footer__link:focus {
+.social__link:hover, .social__link:active, .social__link:focus {
   border-color: #f2f2f2;
 }
 

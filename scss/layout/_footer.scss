@@ -46,7 +46,7 @@
   }
 }
 
-.footer-nav__link {
+.footer__link {
   color: $white;
   
   @include focus-visible;
@@ -55,7 +55,7 @@
   }
 }
 
-.footer-nav__item:not(:last-child) {
+.footer__item:not(:last-child) {
   margin-bottom: rem(25);
 }
 
@@ -67,7 +67,7 @@
   margin-top: 0;
 }
 
-.footer__vanza {
+.footer__github {
   color: $white;
   font-weight: 700;
   
@@ -77,18 +77,18 @@
   }
 }
 
-.footer__social {
+.social {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: rem(20);
 }
 
-.footer__item:not(:last-child) {
+.social__item:not(:last-child) {
   margin-right: rem(12);
 }
 
-.footer__link {
+.social__link {
   display: flex;
   align-items: center;
   justify-content: center;
