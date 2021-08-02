@@ -16,9 +16,11 @@ $focus-visible-color: $black !default;
 // Breakpoints
 // Note: If you user font-size setting is 16px, then this 'em' is equal to this in 'px'
 $breakpoints-up: (
-  "tiny": 31.25em // => 500px
+  "tiny": 31.25em, // => 500px
+  "very-small": 40em // => 640px
 );
 
 $breakpoints-down: (
-  "tiny": 31.1875em // => 499px
+  "tiny": 31.1875em, // => 499px
+  "very-small": 39.9375em // => 639px
 );
