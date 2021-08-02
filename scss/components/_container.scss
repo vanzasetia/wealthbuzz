@@ -2,4 +2,8 @@
 
 .container {
   padding: 0 rem(16);
+  
+  @include breakpoint-up("very-small") {
+    padding: 0 rem(32);
+  }
 }
