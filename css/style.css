@@ -404,6 +404,11 @@ img {
 .framework__text {
   max-width: 25rem;
 }
+@media screen and (min-width: 57.5em) {
+  .framework__text {
+    max-width: 100%;
+  }
+}
 
 .framework__title {
   border-left: 0.1875rem solid black;
@@ -423,6 +428,11 @@ img {
 @supports not (gap: 2.5rem) {
   .framework__list {
     grid-gap: 2.5rem;
+  }
+}
+@media screen and (min-width: 57.5em) {
+  .framework__list {
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 

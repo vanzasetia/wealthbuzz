@@ -7,6 +7,10 @@
 
 .framework__text {
   max-width: rem(400);
+  
+  @include breakpoint-up("small") {
+    max-width: 100%;
+  }
 }
 
 .framework__title {
@@ -28,6 +32,10 @@
   
   @supports not (gap: rem($gap)) {
     grid-gap: rem($gap);
+  }
+  
+  @include breakpoint-up("small") {
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
