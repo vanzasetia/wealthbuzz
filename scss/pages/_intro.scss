@@ -1,0 +1,23 @@
+@use "../abstracts" as *;
+
+.intro {
+  padding: rem(60) 0;
+  color: $white;
+}
+
+.intro--team {
+  background: url("../images/team.jpg") no-repeat center center/cover;
+  background-color: $overlay-color;
+  background-blend-mode: overlay;
+}
+
+.intro--contact {
+  background: url("../images/contact.jpg") no-repeat center center/cover;
+  background-color: $overlay-color;
+  background-blend-mode: overlay;
+}
+
+.intro__title {
+  text-transform: capitalize;
+  font-size: rem(36);
+}
