@@ -21,6 +21,16 @@
   @supports not (gap: $gap) {
     grid-gap: $gap;
   }
+  
+  @include breakpoint-up("medium") {
+    $gap: rem(40);
+    grid-template-columns: repeat(3, 1fr);
+    gap: $gap;
+    
+    @supports not (gap: $gap) {
+      grid-gap: $gap;
+    }
+  }
 }
 
 .testimonial__item {
@@ -32,6 +42,10 @@
   background-color: rgb(242, 242, 242);
   padding: rem(24);
   max-width: rem(500);
+  
+  @include breakpoint-up("medium") {
+    max-width: 100%;
+  }
 }
 
 .testimonial__stars {

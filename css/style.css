@@ -516,6 +516,17 @@ img {
     grid-gap: 60;
   }
 }
+@media screen and (min-width: 73.624em) {
+  .testimonial__list {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5rem;
+  }
+  @supports not (gap: 2.5rem) {
+    .testimonial__list {
+      grid-gap: 2.5rem;
+    }
+  }
+}
 
 .testimonial__item {
   margin: 0 auto;
@@ -524,6 +535,11 @@ img {
   background-color: #f2f2f2;
   padding: 1.5rem;
   max-width: 31.25rem;
+}
+@media screen and (min-width: 73.624em) {
+  .testimonial__item {
+    max-width: 100%;
+  }
 }
 
 .testimonial__stars {
