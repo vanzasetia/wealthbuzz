@@ -1,6 +1,14 @@
 @use "../abstracts" as *;
 
-.contact-home {
+.sub-section--team {
+  padding: rem(67.5) 0;
+  
+  @include breakpoint-up("medium") {
+    padding: rem(87.5) 0;
+  }
+}
+
+.sub-section--contact {
   padding-top: rem(67.5);
   padding-bottom: rem(135);
   
@@ -9,15 +17,15 @@
   }
 }
 
-.contact-home .container {
+.sub-section .container {
   
   @include breakpoint-up("small") {
     $gap: rem(40);
     
     display: grid;
-    align-items: center;
     grid-template-columns: repeat(2, 1fr
     );
+    align-items: center;
     gap: $gap;
     
     @supports not (gap: $gap) {
@@ -26,7 +34,7 @@
   }
 }
 
-.contact-home__text {
+.sub-section__text {
   max-width: rem(500);
   
   @include breakpoint-up("small") {
@@ -34,27 +42,12 @@
   }
 }
 
-.contact-home__title {
+.sub-section__title {
   border-left: rem(3) solid $black;
   padding-left: rem(16);
   font-size: rem(30);  
 }
 
-.contact-home__description {
+.sub-section__description {
   margin-top: rem(20);
-}
-
-.contact-home__btn {
-  display: inline-block;
-  margin-top: rem(10);
-  border: rem(2) solid $black;
-  border-radius: 1em;
-  padding: rem(14);
-  color: $black;
-  
-  @include focus-visible;
-  @include on-event {
-    background-color: $black;
-    color: $white;
-  }
 }

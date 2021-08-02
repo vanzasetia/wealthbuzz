@@ -1,0 +1,30 @@
+@use "../abstracts" as *;
+
+.btn {
+  display: inline-block;
+  margin-top: rem(10);
+  border: rem(2) solid;
+  border-radius: 1em;
+  padding: rem(14);
+  
+  @include focus-visible;
+}
+
+
+.btn--hero {
+  border-color: $white;
+  color: $white;
+  
+  @include on-event {
+    @include set-background($white);
+  }
+}
+
+.btn--sub-section {
+  border-color: $black;
+  color: $black;
+  
+  @include on-event {
+    @include set-background($black);
+  }
+}
