@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://wealthbuzz.netlify.app/sitemap.xml
