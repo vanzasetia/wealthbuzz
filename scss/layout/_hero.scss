@@ -23,18 +23,3 @@
     font-size: rem(50);
   }
 }
-
-.hero__btn {
-  display: inline-block;
-  margin-top: rem(10);
-  border: rem(2) solid $white;
-  border-radius: 1em;
-  padding: rem(14);
-  color: $white;
-  
-  @include focus-visible;
-  @include on-event {
-    background-color: $white;
-    color: $black;
-  }
-}
