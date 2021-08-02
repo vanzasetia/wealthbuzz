@@ -83,13 +83,13 @@ img {
 
 // Hide Classes
 .hide-for-mobile {
-  @media screen and (max-width: 64em) {
+  @include breakpoint-down("small") {
     display: none;
   }
 }
 
 .hide-for-desktop {
-  @media screen and (min-width: 64.0625em) {
+  @include breakpoint-up("small") {
     display: none;
   }
 }

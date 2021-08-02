@@ -270,13 +270,13 @@ img {
   width: 0.0625rem;
 }
 
-@media screen and (max-width: 64em) {
+@media screen and (max-width: 57.4375em) {
   .hide-for-mobile {
     display: none;
   }
 }
 
-@media screen and (min-width: 64.0625em) {
+@media screen and (min-width: 57.5em) {
   .hide-for-desktop {
     display: none;
   }
