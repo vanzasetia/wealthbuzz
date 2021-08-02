@@ -3,9 +3,168 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta
+    name="title"
+    content="WealthBuzz | Our Team"
+  />
+  <meta
+    name="description"
+    content="Our Business Advisors that have had sustained success in senior-level management or business proprietorship."
+  />
+  <meta name="robots" content="noindex,follow" />
+  <meta name="author" content="Vanza Setia, venusbumi2@gmail.com" />
+  <base href="/" />
+  <!-- Open Graph Protocol -->
+  <meta
+    property="og:title"
+    content="WealthBuzz | Our Team"
+  />
+  <meta
+    property="og:description"
+    content="Our Business Advisors that have had sustained success in senior-level management or business proprietorship."
+  />
+  <meta
+    property="og:image"
+    content="https://wealthbuzz.netlify.app/images/w-icon.png"
+  />
+  <meta
+    property="og:url"
+    content="https://wealthbuzz.netlify.app/team.html"
+  />
+  <meta name="twitter:card" content="summary_large_image" />
+  <!-- Favicons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+  <link rel="manifest" href="images/site.webmanifest">
+  <link rel="mask-icon" href="images/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="images/favicon.ico">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-config" content="images/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+  <!-- Preload Font Family To Prevent Shifting Layout -->
+  <link
+    rel="preload"
+    href="./fonts/Lato-Regular.woff2"
+    as="font"
+    type="font/woff2"
+    crossorigin
+  />
+  <link
+    rel="preload"
+    href="./fonts/Lato-Bold.woff2"
+    as="font"
+    type="font/woff2"
+    crossorigin
+  />
+  <!-- Directly Used Preloaded Fonts -->
+  <style>
+    @font-face{font-family:"Lato";font-style:normal;font-weight:400;font-display:swap;src:url("../fonts/Lato-Regular.woff2") format("woff2"), url("../fonts/Lato-Regular.woff") format("woff");}@font-face{font-family:"Lato";font-style:normal;font-weight:700;font-display:swap;src:url("../fonts/Lato-Bold.woff2") format("woff2"), url("../fonts/Lato-Bold.woff") format("woff");}
+  </style>
+  <!-- Current CSS -->
+  <link rel="stylesheet" href="./css/style.css">
+  <!-- Minified CSS -->
+  <!-- <link rel="stylesheet" href="./css/style.min.css"> -->
+  <!-- JavaScript -->
+  <script defer src="./js/script.js"></script>
+  <!-- Mailgo -->
+  <script defer src="./js/vendor/mailgo.min.js"></script>
   <title>WealthBuzz | Our Team</title>
 </head>
 <body dir="ltr">
-  <h1>Team Page</h1>
+  <a class="sr-only" href="#main">main content.</a>
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <nav class="header__navigation" aria-label="primary">
+        <a href="index.html" class="header__home">
+          <img src="./icons/w-icon.svg" alt="" class="header__logo" aria-hidden="true" width="30" height="30">
+          WealthBuzz
+        </a>
+        <ul class="header__list">
+          <li class="header__item">
+            <a href="index.html" class="header__link header__link--current" aria-current="page">Home</a>
+          </li>
+          <li class="header__item">
+            <a href="team.html" class="header__link">Team</a>
+          </li>
+          <li class="header__item">
+            <a href="contact.html" class="header__link">Contact Us</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <!-- END OF Header -->
+  
+  <!-- Main -->
+  <main id="main">
+    
+    <!-- Contact -->
+    <section class="sub-section sub-section--contact">
+      <div class="container">
+        <div class="sub-section__text">
+          <h2 class="sub-section__title">Contact Us</h2>
+          <p class="sub-section__description">Our Coordinator will discuss your most pressing needs and then assign a team of Business Advisors to meet with you to consult and provide initial recommendations.</p>
+          <a href="contact.html" class="btn btn--sub-section">Request A Consultation</a>
+        </div>
+        <img src="./images/contact.jpg" alt="" class="sub-section__image hide-for-mobile" aria-hidden="true">
+      </div>
+    </section>
+    <!-- END OF Contact -->
+    
+  </main>
+  <!-- END OF Main -->
+  
+  <!-- Footer -->
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer__text">
+        <a href="index.html" class="footer__home">
+          <img src="./icons/w-icon-white.svg" alt="" class="footer__logo" aria-hidden="true" width="60" height="60">
+          WealthBuzz
+        </a>
+        <p class="footer__copyright">
+          Copyright <span class="js-year"></span> WealthBuzz. All rights reserved.
+        </p>
+      </div>
+      <nav class="footer__navigation" aria-label="secondary">
+        <ul class="footer__list">
+          <li class="footer__item">
+            <a href="index.html" class="footer__link">Home</a>
+          </li>
+          <li class="footer__item">
+            <a href="index.html" class="footer__link">Team</a>
+          </li>
+          <li class="footer__item">
+            <a href="index.html" class="footer__link">Contact Us</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="footer__attribution">
+        <p class="footer__description">
+          Designed and Coded by <a href="https://github.com/vanzasetia" class="footer__github" rel="noopener noreferrer" target="_blank">Vanza Setia.</a>
+        </p>
+        <ul class="social">
+          <li class="social__item">
+            <a href="https://www.twitter.com/vanzasetia" class="social__link" rel="noopener noreferrer" target="_blank" aria-label="Twitter.">
+              <img src="./icons/twitter-white.svg" alt="" class="social__icon" width="36" height="36" aria-hidden="true">
+            </a>
+          </li>
+          <li class="social__item">
+            <a href="https://" class="social__link" rel="noopener noreferrer" target="_blank" aria-label="GitHub Repository.">
+              <img src="./icons/github-white.svg" alt="" class="social__icon" width="36" height="36" aria-hidden="true">
+            </a>
+          </li>
+          <li class="social__item">
+            <a href="mailto: venusbumi2@gmail.com" class="social__link" aria-label="Gmail.">
+              <img src="./icons/mail-white.svg" alt="" class="social__icon" width="36" height="36" aria-hidden="true">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+  <!-- END OF Footer -->
 </body>
 </html>
