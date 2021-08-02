@@ -717,7 +717,7 @@ img {
 }
 
 .intro {
-  padding: 3.75rem 0;
+  padding: 4.21875rem 0;
   color: #f2f2f2;
 }
 
@@ -736,4 +736,68 @@ img {
 .intro__title {
   text-transform: capitalize;
   font-size: 2.25rem;
+}
+
+.team {
+  padding: 4.21875rem 0;
+}
+
+.team__title {
+  border-left: 0.1875rem solid #111111;
+  padding-left: 1rem;
+  font-size: 1.875rem;
+}
+
+.team__list {
+  margin-top: 3.75rem;
+}
+
+.team__person {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 1em;
+  box-shadow: 0.5rem 0.5rem 1.25rem rgba(17, 17, 17, 0.15);
+  background-color: #f2f2f2;
+  padding: 2.25rem 1.5rem;
+  text-align: center;
+}
+
+.team__photo {
+  border-radius: 2em;
+}
+
+.team__job {
+  font-size: 0.875rem;
+}
+
+.team__name {
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.team__description--small {
+  font-size: 0.875rem;
+}
+
+.team__social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1.125rem;
+}
+
+.team__item:first-child .team__icon {
+  margin-right: 0.3125rem;
+}
+
+.team__link:focus-visible {
+  outline: 0.125rem dashed #00befb;
+  outline-offset: 0.3125rem;
+}
+
+.team__icon {
+  margin-right: 0.875rem;
 }
