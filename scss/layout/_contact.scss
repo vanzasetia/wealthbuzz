@@ -2,7 +2,11 @@
 
 .contact-home {
   padding-top: rem(67.5);
-  padding-bottom: rem(90);
+  padding-bottom: rem(135);
+  
+  @include breakpoint-up("medium") {
+    padding-top: rem(87.5);
+  }
 }
 
 .contact-home .container {

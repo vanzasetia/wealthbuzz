@@ -3,6 +3,10 @@
 .framework {
   padding-top: rem(135);
   padding-bottom: rem(67.5);
+  
+  @include breakpoint-up("medium") {
+    padding-bottom: rem(87.5);
+  }
 }
 
 .framework__text {

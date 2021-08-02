@@ -2,6 +2,10 @@
 
 .testimonial {
   padding: rem(67.5) 0;
+  
+  @include breakpoint-up("medium") {
+    padding: rem(87.5) 0;
+  }
 }
 
 .testimonial__title {

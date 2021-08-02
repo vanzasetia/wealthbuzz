@@ -78,7 +78,7 @@
   font-weight: 700;
   
   &:focus-visible {
-    border: rem(2) dashed rgb(242, 242, 242);
+    outline: rem(2) dashed rgb(242, 242, 242);
   }
   
   @include on-event {

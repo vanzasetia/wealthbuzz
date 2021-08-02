@@ -157,20 +157,6 @@ template {
   display: none;
 }
 
-@font-face {
-  font-family: "Lato";
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url("../fonts/Lato-Regular.woff2") format("woff2"), url("../fonts/Lato-Regular.woff") format("woff");
-}
-@font-face {
-  font-family: "Lato";
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-  src: url("../fonts/Lato-Bold.woff2") format("woff2"), url("../fonts/Lato-Bold.woff") format("woff");
-}
 @media (prefers-reduced-motion: reduce) {
   * {
     animation-duration: 0.01ms !important;
@@ -365,6 +351,11 @@ img {
   padding: 7.5rem 0rem;
   color: #f2f2f2;
 }
+@media screen and (min-width: 73.624em) {
+  .hero {
+    background-image: url("../images/hero-bg.jpg");
+  }
+}
 
 .hero__text {
   max-width: 31.25rem;
@@ -399,6 +390,11 @@ img {
 .framework {
   padding-top: 8.4375rem;
   padding-bottom: 4.21875rem;
+}
+@media screen and (min-width: 73.624em) {
+  .framework {
+    padding-bottom: 5.46875rem;
+  }
 }
 
 .framework__text {
@@ -443,6 +439,11 @@ img {
 
 .team-home {
   padding: 4.21875rem 0;
+}
+@media screen and (min-width: 73.624em) {
+  .team-home {
+    padding: 5.46875rem 0;
+  }
 }
 
 @media screen and (min-width: 59em) {
@@ -497,6 +498,11 @@ img {
 
 .testimonial {
   padding: 4.21875rem 0;
+}
+@media screen and (min-width: 73.624em) {
+  .testimonial {
+    padding: 5.46875rem 0;
+  }
 }
 
 .testimonial__title {
@@ -585,7 +591,12 @@ img {
 
 .contact-home {
   padding-top: 4.21875rem;
-  padding-bottom: 5.625rem;
+  padding-bottom: 8.4375rem;
+}
+@media screen and (min-width: 73.624em) {
+  .contact-home {
+    padding-top: 5.46875rem;
+  }
 }
 
 @media screen and (min-width: 59em) {
@@ -707,7 +718,7 @@ img {
   font-weight: 700;
 }
 .footer__vanza:focus-visible {
-  border: 0.125rem dashed #f2f2f2;
+  outline: 0.125rem dashed #f2f2f2;
 }
 .footer__vanza:hover, .footer__vanza:active, .footer__vanza:focus {
   text-decoration: underline;
