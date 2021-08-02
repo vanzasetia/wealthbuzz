@@ -449,6 +449,7 @@ img {
   .team-home .container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    align-items: center;
     gap: 2.5rem;
   }
   @supports not (gap: 2.5rem) {
@@ -571,6 +572,20 @@ img {
   padding-bottom: 5.625rem;
 }
 
+@media screen and (min-width: 59em) {
+  .contact-home .container {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2.5rem;
+  }
+  @supports not (gap: 2.5rem) {
+    .contact-home .container {
+      grid-gap: 2.5rem;
+    }
+  }
+}
+
 .contact-home__text {
   max-width: 31.25rem;
 }
@@ -687,7 +702,9 @@ img {
 }
 
 .container {
+  margin: 0 auto;
   padding: 0 1rem;
+  max-width: 73.125rem;
 }
 @media screen and (min-width: 40em) {
   .container {

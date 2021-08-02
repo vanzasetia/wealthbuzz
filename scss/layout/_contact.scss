@@ -5,6 +5,23 @@
   padding-bottom: rem(90);
 }
 
+.contact-home .container {
+  
+  @include breakpoint-up("small") {
+    $gap: rem(40);
+    
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(2, 1fr
+    );
+    gap: $gap;
+    
+    @supports not (gap: $gap) {
+      grid-gap: $gap;
+    }
+  }
+}
+
 .contact-home__text {
   max-width: rem(500);
 }
