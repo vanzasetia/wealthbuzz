@@ -639,6 +639,20 @@ img {
   color: #f2f2f2;
 }
 
+@media screen and (min-width: 73.624em) {
+  .footer .container {
+    display: grid;
+    align-items: start;
+    grid-template-columns: 2fr repeat(2, 1fr);
+    gap: 2.5rem;
+  }
+  @supports not (gap: 2.5rem) {
+    .footer .container {
+      grid-gap: 2.5rem;
+    }
+  }
+}
+
 .footer__home {
   display: flex;
   align-items: center;
@@ -659,6 +673,11 @@ img {
 .footer__navigation {
   margin: 3.75rem 0;
 }
+@media screen and (min-width: 73.624em) {
+  .footer__navigation {
+    margin: 0;
+  }
+}
 
 .footer-nav__link {
   color: #f2f2f2;
@@ -677,6 +696,10 @@ img {
 
 .footer__attribution {
   text-align: center;
+}
+
+.footer__description {
+  margin-top: 0;
 }
 
 .footer__vanza {

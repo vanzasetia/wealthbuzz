@@ -6,6 +6,22 @@
   color: rgb(242, 242, 242);
 }
 
+.footer .container {
+  
+  @include breakpoint-up("medium") {
+    $gap: rem(40);
+    
+    display: grid;
+    align-items: start;
+    grid-template-columns: 2fr repeat(2, 1fr);
+    gap: $gap;
+    
+    @supports not (gap: $gap) {
+      grid-gap: $gap;
+    }
+  }
+}
+
 .footer__home {
   display: flex;
   align-items: center;
@@ -26,6 +42,10 @@
 
 .footer__navigation {
   margin: rem(60) 0;
+  
+  @include breakpoint-up("medium") {
+    margin: 0;
+  }
 }
 
 .footer-nav__link {
@@ -47,6 +67,10 @@
 
 .footer__attribution {
   text-align: center;
+}
+
+.footer__description {
+  margin-top: 0;
 }
 
 .footer__vanza {
