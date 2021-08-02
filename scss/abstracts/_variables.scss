@@ -18,11 +18,13 @@ $focus-visible-color: $black !default;
 $breakpoints-up: (
   "tiny": 31.25em, // => 500px
   "very-small": 40em, // => 640px
-  "small": 59em // => 944px
+  "small": 59em, // => 944px
+  "medium": 73.624em // 1178px
 );
 
 $breakpoints-down: (
   "tiny": 31.1875em, // => 499px
   "very-small": 39.9375em, // => 639px
-  "small": 58.9375em // 943px
+  "small": 58.9375em, // 943px
+  "medium": 73.5625em // 1177px
 );
