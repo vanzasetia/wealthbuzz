@@ -2,7 +2,7 @@
 
 .hero {
   background: url("../images/hero-bg-mobile.jpg") no-repeat center center/cover;
-  background-color: rgb(51, 51, 51);
+  background-color: $overlay-color;
   background-blend-mode: overlay;
   padding: rem(120) rem(0);
   color: $white;

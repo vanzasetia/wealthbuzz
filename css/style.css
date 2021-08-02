@@ -715,3 +715,25 @@ img {
   background-color: #111111;
   color: #f2f2f2;
 }
+
+.intro {
+  padding: 3.75rem 0;
+  color: #f2f2f2;
+}
+
+.intro--team {
+  background: url("../images/team.jpg") no-repeat center center/cover;
+  background-color: #333333;
+  background-blend-mode: overlay;
+}
+
+.intro--contact {
+  background: url("../images/contact.jpg") no-repeat center center/cover;
+  background-color: #333333;
+  background-blend-mode: overlay;
+}
+
+.intro__title {
+  text-transform: capitalize;
+  font-size: 2.25rem;
+}
