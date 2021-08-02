@@ -28,6 +28,10 @@
 
 .contact-home__text {
   max-width: rem(500);
+  
+  @include breakpoint-up("small") {
+    max-width: 100%;
+  }
 }
 
 .contact-home__title {
