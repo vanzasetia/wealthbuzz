@@ -778,16 +778,28 @@ img {
     grid-gap: 3.75rem;
   }
 }
+@media screen and (min-width: 73.624em) {
+  .team__list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
 
 .team__person {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 0 auto;
   border-radius: 1em;
   box-shadow: 0.5rem 0.5rem 1.25rem rgba(17, 17, 17, 0.15);
   background-color: #f2f2f2;
   padding: 2.25rem 1.5rem;
+  max-width: 25rem;
   text-align: center;
+}
+@media screen and (min-width: 73.624em) {
+  .team__person {
+    max-width: 100%;
+  }
 }
 
 .team__photo {
@@ -818,21 +830,37 @@ img {
   margin-top: 1.125rem;
 }
 
-.team__item:first-child .team__icon {
+.team__item:first-child .team__link {
   margin-right: 0.3125rem;
 }
 
+.team__link {
+  display: inline-block;
+  margin-right: 0.875rem;
+  line-height: 0;
+}
 .team__link:focus-visible {
   outline: 0.125rem dashed #00befb;
   outline-offset: 0.3125rem;
 }
 
-.team__icon {
-  margin-right: 0.875rem;
-}
-
 .contact {
   padding: 4.21875rem 0;
+}
+
+.contact__container {
+  margin: 0 auto;
+  max-width: 31.25rem;
+}
+@media screen and (min-width: 73.624em) {
+  .contact__container {
+    display: grid;
+    align-items: center;
+    justify-content: space-between;
+    grid-template-columns: 50% 40%;
+    margin: 0;
+    max-width: 100%;
+  }
 }
 
 .contact__title {
@@ -910,6 +938,11 @@ img {
   padding: 2.25rem;
   text-align: center;
 }
+@media screen and (min-width: 73.624em) {
+  .contact__info {
+    margin-top: 0;
+  }
+}
 
 .contact__info > *:not(:first-child) {
   margin-top: 5rem;
@@ -920,13 +953,13 @@ img {
 .services__title {
   text-transform: uppercase;
   font-weight: 700;
-  font-size: 1.375rem;
+  font-size: 1.25rem;
 }
 
 .call__list,
 .location__description,
 .services__list {
-  margin-top: 1.5rem;
+  margin-top: 1rem;
 }
 
 .call__item:not(:first-child) {

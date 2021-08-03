@@ -22,19 +22,29 @@
   @supports not (gap: $gap) {
     grid-gap: $gap;
   }
+  
+  @include breakpoint-up("medium") {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 .team__person {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 0 auto;
   border-radius: 1em;
   box-shadow: 
    rem(8) rem(8) rem(20) rgba($black, 0.15)
   ;
   background-color: $white;
   padding: rem(36) rem(24);
+  max-width: rem(400);
   text-align: center;
+  
+  @include breakpoint-up("medium") {
+    max-width: 100%;
+  }
 }
 
 .team__photo {
@@ -65,15 +75,14 @@
   margin-top: rem(18);
 }
 
-.team__item:first-child .team__icon {
+.team__item:first-child .team__link {
   margin-right: rem(5);
 }
 
 .team__link {
+  display: inline-block;
+  margin-right: rem(14);
+  line-height: 0;
   
   @include focus-visible;
-}
-
-.team__icon {
-  margin-right: rem(14);
 }
