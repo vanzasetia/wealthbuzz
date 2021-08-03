@@ -4,7 +4,7 @@
   <img alt="GitHub repo size" src="https://img.shields.io/github/repo-size/vanzasetia/wealthbuzz?style=for-the-badge&logo=github">
   <a href="https://twitter.com/vanzasetia" target="_blank"><img src="https://img.shields.io/twitter/follow/vanzasetia?logo=twitter&style=for-the-badge" alt="Twitter followers." /></a>
   <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/vanzasetia/wealthbuzz?style=for-the-badge&logo=git">
-  <img alt="Netlify" src="https://img.shields.io/netlify/?style=for-the-badge&logo=netlify">
+  <img alt="Netlify" src="https://img.shields.io/netlify/4405622a-7b0f-4475-9214-b18b3074b4f5?style=for-the-badge&logo=netlify">
 </p>
 <p>
   <a href="http://jigsaw.w3.org/css-validator/check/referer">
