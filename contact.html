@@ -69,11 +69,6 @@
   <script defer src="./js/script.js"></script>
   <!-- Mailgo -->
   <script defer src="./js/vendor/mailgo.min.js"></script>
-  <!-- Android Dev Tools -->
-  <script src="//cdn.jsdelivr.net/npm/eruda"></script>
-  <script>
-    eruda.init();
-  </script>
   <title>WealthBuzz | Contact Us</title>
 </head>
 <body dir="ltr">
@@ -146,7 +141,7 @@
                 <a href="termsandconditions.html" class="contact__link">Terms and Conditions</a>
               </div>
               <div data-netlify-recaptcha="true"></div>
-              <button class="btn btn--submit" type="Submit" aria-label="submit form to request a consultation.">Submit</button>
+              <button class="btn btn--submit" type="submit">Submit <span class="sr-only">form to request a consultation</span></button>
             </fieldset>
           </form>
           <div class="contact__info">
