@@ -240,6 +240,11 @@ ul {
   list-style: none;
 }
 
+fieldset {
+  border: none;
+  padding: 0;
+}
+
 address {
   font-style: normal;
 }
@@ -691,6 +696,8 @@ img {
   margin-top: 0.625rem;
   border: 0.125rem solid;
   border-radius: 1em;
+  background-color: transparent;
+  cursor: pointer;
   padding: 0.875rem;
 }
 .btn:focus-visible {
@@ -712,6 +719,16 @@ img {
   color: #111111;
 }
 .btn--sub-section:hover, .btn--sub-section:active, .btn--sub-section:focus {
+  background-color: #111111;
+  color: #f2f2f2;
+}
+
+.btn--submit {
+  display: block;
+  border-color: #111111;
+  width: 100%;
+}
+.btn--submit:hover, .btn--submit:active, .btn--submit:focus {
   background-color: #111111;
   color: #f2f2f2;
 }
@@ -746,7 +763,7 @@ img {
   margin-bottom: 1.25rem;
   border-left: 0.1875rem solid #111111;
   padding-left: 1rem;
-  text-transform: uppercase;
+  text-transform: capitalize;
   font-size: 1.875rem;
 }
 
@@ -811,4 +828,75 @@ img {
 
 .team__icon {
   margin-right: 0.875rem;
+}
+
+.contact {
+  padding: 4.21875rem 0;
+}
+
+.contact__title {
+  margin-bottom: 1.25rem;
+  border-left: 0.1875rem solid #111111;
+  padding-left: 1rem;
+  text-transform: capitalize;
+  font-size: 1.875rem;
+}
+
+.contact__link {
+  color: #111111;
+  font-weight: 700;
+}
+.contact__link:focus-visible {
+  outline: 0.125rem dashed #00befb;
+  outline-offset: 0.3125rem;
+}
+
+.contact__container {
+  margin-top: 3.75rem;
+}
+
+.contact__legend {
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.contact__control {
+  display: block;
+  width: 100%;
+  margin-bottom: 1.25rem;
+}
+
+.contact__control--term-and-service {
+  display: inline;
+  width: auto;
+}
+
+.contact__wrapper {
+  margin: 1.25rem 0;
+}
+
+.contact__input {
+  display: block;
+  margin-top: 0.625rem;
+  border: none;
+  border-bottom: 0.125rem solid #111111;
+  background-color: transparent;
+  padding: 0.3125rem;
+  width: 100%;
+  font-size: 1rem;
+}
+.contact__input:focus-visible {
+  outline: 0.125rem solid #111111;
+  border-color: transparent;
+}
+
+.contact__input--textarea {
+  resize: none;
+}
+
+.contact__input--checkbox {
+  display: inline;
+  width: auto;
 }

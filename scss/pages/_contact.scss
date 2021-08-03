@@ -1,0 +1,71 @@
+@use "../abstracts" as *;
+
+.contact {
+  padding: rem(67.5) 0;
+}
+
+.contact__title {
+  margin-bottom: rem(20);
+  border-left: rem(3) solid $black;
+  padding-left: rem(16);
+  text-transform: capitalize;
+  font-size: rem(30);
+}
+
+.contact__link {
+  color: $black;
+  font-weight: 700;
+  
+  @include focus-visible;
+}
+
+.contact__container {
+  margin-top: rem(60);
+}
+
+.contact__legend {
+  text-align: center;
+  text-transform: capitalize;
+  font-size: rem(24);
+  font-weight: 700;
+}
+
+.contact__control {
+  display: block;
+  width: 100%;
+  margin-bottom: rem(20);
+}
+
+.contact__control--term-and-service {
+  display: inline;
+  width: auto;
+}
+
+.contact__wrapper {
+  margin: rem(20) 0;
+}
+
+.contact__input {
+  display: block;
+  margin-top: rem(10);
+  border: none;
+  border-bottom: rem(2) solid $black;
+  background-color: transparent;
+  padding: rem(5);
+  width: 100%;
+  font-size: rem(16);
+  
+  &:focus-visible {
+    outline: rem(2) solid $black;
+    border-color: transparent;
+  }
+}
+
+.contact__input--textarea {
+  resize: none;
+}
+
+.contact__input--checkbox {
+  display: inline;
+  width: auto;
+}
