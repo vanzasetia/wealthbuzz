@@ -16,7 +16,7 @@
 
 ## Feedback and Live Review
 * [🌍 Live Review](https://wealthbuzz.netlify.app/)
-* [🐦 Give Feedback on Twitter]()
+* [🐦 Give Feedback on Twitter](https://twitter.com/vanzasetia/status/1422524309738713101?s=19)
 
 ## Table of contents
 - [About this website](#about-this-website)
@@ -74,4 +74,4 @@ I also used [Mailgo](https://mailgo.dev/), which is a light JavaScript library f
 
 
 ## Continued development
-I am going to give this website a better color scheme, not just black and white. If you have any feedback about the color, feel free to tell me on [Twitter](). Also, I aware that on 320px breakpoint, the navigation start broken. I want to use hamburger menu, but currently I can't do it now.
+I am going to give this website a better color scheme, not just black and white. If you have any feedback about the color, feel free to tell me on [Twitter](https://twitter.com/vanzasetia/status/1422524309738713101?s=19). Also, I aware that on 320px breakpoint, the navigation start broken. I want to use hamburger menu, but currently I can't do it now.
