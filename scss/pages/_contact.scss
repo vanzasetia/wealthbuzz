@@ -69,3 +69,53 @@
   display: inline;
   width: auto;
 }
+
+.contact__info {
+  margin-top: rem(60);
+  border-radius: 1em;
+  box-shadow: 
+    rem(8) rem(8) rem(20) rgba($black, 0.15)
+  ;
+  background-color: $white;
+  padding: rem(36);
+  text-align: center;
+}
+
+.contact__info > *:not(:first-child) {
+  margin-top: rem(80);
+}
+
+.call__title,
+.location__title,
+.services__title {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: rem(20);
+}
+
+.call__list,
+.location__description,
+.services__list {
+  margin-top: rem(24);
+}
+
+.call__item:not(:first-child) {
+  margin-top: rem(14);
+}
+
+.call__link {
+  color: $black;
+  
+  @include focus-visible;
+  @include on-event {
+    font-weight: 700;
+  }
+}
+
+.services__item:not(:first-child) {
+  margin-top: rem(14);
+}
+
+.location__description {
+  line-height: 1.6;
+}

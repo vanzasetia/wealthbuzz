@@ -900,3 +900,53 @@ img {
   display: inline;
   width: auto;
 }
+
+.contact__info {
+  margin-top: 3.75rem;
+  border-radius: 1em;
+  box-shadow: 0.5rem 0.5rem 1.25rem rgba(17, 17, 17, 0.15);
+  background-color: #f2f2f2;
+  padding: 2.25rem;
+  text-align: center;
+}
+
+.contact__info > *:not(:first-child) {
+  margin-top: 5rem;
+}
+
+.call__title,
+.location__title,
+.services__title {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+
+.call__list,
+.location__description,
+.services__list {
+  margin-top: 1.5rem;
+}
+
+.call__item:not(:first-child) {
+  margin-top: 0.875rem;
+}
+
+.call__link {
+  color: #111111;
+}
+.call__link:focus-visible {
+  outline: 0.125rem dashed #00befb;
+  outline-offset: 0.3125rem;
+}
+.call__link:hover, .call__link:active, .call__link:focus {
+  font-weight: 700;
+}
+
+.services__item:not(:first-child) {
+  margin-top: 0.875rem;
+}
+
+.location__description {
+  line-height: 1.6;
+}
