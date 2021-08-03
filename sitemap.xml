@@ -3,16 +3,19 @@
 		<url>
 			<loc>https://wealthbuzz.netlify.app/index.html</loc>
 			<changefreq>yearly</changefreq>
+			<lastmod>2021-08-04T06:04:00+07:00</lastmod>
 		</url>
 
 		<url>
 			<loc>https://wealthbuzz.netlify.app/contact.html</loc>
 			<changefreq>yearly</changefreq>
+			<lastmod>2021-08-04T06:04:00+07:00</lastmod>
 		</url>
 
 		<url>
 			<loc>https://wealthbuzz.netlify.app/team.html</loc>
 			<changefreq>yearly</changefreq>
+			<lastmod>2021-08-04T06:04:00+07:00</lastmod>
 		</url>
 
 	</urlset>
