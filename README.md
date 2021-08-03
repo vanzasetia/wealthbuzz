@@ -66,6 +66,7 @@ I also used [Mailgo](https://mailgo.dev/), which is a light JavaScript library f
 </p>
 
 ## Useful Resources
+* I used [Responsive Website Tools](http://responsivetesttool.com/), so that I could see my website on various screen size on my Android phone. It's worked for **localhost** and any website url.
 * [Optimize Cumulative Layout Shift](https://web.dev/optimize-cls/)
 * [ Footer Tag | MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer#accessibility_concerns)
 * I used [Icomoon](https://icomoon.io) for all the icons and the svg files were optimized using [SVGOMG](https://jakearchibald.github.io/svgomg/)
