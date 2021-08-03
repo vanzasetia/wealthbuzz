@@ -5,6 +5,8 @@
   margin-top: rem(10);
   border: rem(2) solid;
   border-radius: 1em;
+  background-color: transparent;
+  cursor: pointer;
   padding: rem(14);
   
   @include focus-visible;
@@ -23,6 +25,16 @@
 .btn--sub-section {
   border-color: $black;
   color: $black;
+  
+  @include on-event {
+    @include set-background($black);
+  }
+}
+
+.btn--submit {
+  display: block;
+  border-color: $black;
+  width: 100%;
   
   @include on-event {
     @include set-background($black);
