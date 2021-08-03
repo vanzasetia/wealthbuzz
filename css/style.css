@@ -744,7 +744,8 @@ img {
   background-blend-mode: overlay;
 }
 
-.intro--contact {
+.intro--contact,
+.intro--terms {
   background: url("../images/contact.jpg") no-repeat center center/cover;
   background-color: #333333;
   background-blend-mode: overlay;
@@ -949,4 +950,16 @@ img {
 
 .location__description {
   line-height: 1.6;
+}
+
+.terms {
+  padding: 4.21875rem 0;
+}
+
+.terms__title {
+  margin-bottom: 1.25rem;
+  border-left: 0.1875rem solid #111111;
+  padding-left: 1rem;
+  text-transform: capitalize;
+  font-size: 1.875rem;
 }
