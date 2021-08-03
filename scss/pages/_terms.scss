@@ -1,0 +1,13 @@
+@use "../abstracts" as *;
+
+.terms {
+  padding: rem(67.5) 0;
+}
+
+.terms__title {
+  margin-bottom: rem(20);
+  border-left: rem(3) solid $black;
+  padding-left: rem(16);
+  text-transform: capitalize;
+  font-size: rem(30);
+}
