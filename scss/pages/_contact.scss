@@ -4,6 +4,20 @@
   padding: rem(67.5) 0;
 }
 
+.contact__container {
+  margin: 0 auto;
+  max-width: rem(500);
+  
+  @include breakpoint-up("medium") {
+    display: grid;
+    align-items: center;
+    justify-content: space-between;
+    grid-template-columns: 50% 40%;
+    margin: 0;
+    max-width: 100%;
+  }
+}
+
 .contact__title {
   margin-bottom: rem(20);
   border-left: rem(3) solid $black;
@@ -79,6 +93,10 @@
   background-color: $white;
   padding: rem(36);
   text-align: center;
+  
+  @include breakpoint-up("medium") {
+    margin-top: 0;
+  }
 }
 
 .contact__info > *:not(:first-child) {
@@ -90,13 +108,13 @@
 .services__title {
   text-transform: uppercase;
   font-weight: 700;
-  font-size: rem(22);
+  font-size: rem(20);
 }
 
 .call__list,
 .location__description,
 .services__list {
-  margin-top: rem(24);
+  margin-top: rem(16);
 }
 
 .call__item:not(:first-child) {
