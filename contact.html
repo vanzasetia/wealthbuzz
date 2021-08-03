@@ -116,9 +116,41 @@
     <!-- Contact -->
     <section class="contact">
       <div class="container">
-        <div class="contact__form">
-        </div>
-        <div class="contact__info">
+        <h2 class="contact__title">Get Started</h2>
+        <p class="contact__description">
+          It’s really easy to get started: <a href="tel:+1234567890" class="contact__link">call us</a> or fill this form to book a consultation.
+        </p>
+        <div class="contact__container">
+          <form class="contact__form" aria-labelledby="contactLegend" name="contact" method="POST" netlify-honeypot="bot-field" data-netlify-recaptcha="true" data-netlify="true">
+            <fieldset>
+              <legend id="contactLegend" class="contact__legend">Contact Us</legend>
+              <p class="hidden" aria-hidden="true">
+                <label for="bot">Don’t fill this out if you’re human: <input id="bot" name="bot-field"></label>
+              </p>
+              <label for="fullName" class="contact__control">
+                Full Name
+                <input type="text" name id="fullName" class="contact__input" placeholder=" " required>
+              </label>
+              <label for="email" class="contact__control">
+                Email
+                <input type="email" name="email" id="email" class="contact__input" placeholder=" " required>
+              </label>
+              <label for="message" class="contact__control">
+                Message
+                <textarea name="message" id="message" cols="40" rows="8" class="contact__input contact__input--textarea" placeholder=" " required></textarea>
+              </label>
+              <div>
+                <label for="termAndService" class="contact__control">
+                  <input type="checkbox" name="term-and-service" id="termAndService" class="contact__input contact__input--checkbox" required>I accept the 
+                </label>
+                <p>
+                  <a href="termsandconditions.html" class="contact__link">Terms and Conditions</a>
+                </p>
+              </div>
+              <div data-netlify-recaptcha="true"></div>
+              <button class="btn btn--submit" type="Submit" aria-label="submit form to request a consultation.">Submit</button>
+            </fieldset>
+          </form>
         </div>
       </div>
     </section>
