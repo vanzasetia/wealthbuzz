@@ -139,13 +139,11 @@
                 Message
                 <textarea name="message" id="message" cols="40" rows="8" class="contact__input contact__input--textarea" placeholder=" " required></textarea>
               </label>
-              <div>
-                <label for="termAndService" class="contact__control">
+              <div class="contact__wrapper">
+                <label for="termAndService" class="contact__control contact__control--term-and-service">
                   <input type="checkbox" name="term-and-service" id="termAndService" class="contact__input contact__input--checkbox" required>I accept the 
                 </label>
-                <p>
-                  <a href="termsandconditions.html" class="contact__link">Terms and Conditions</a>
-                </p>
+                <a href="termsandconditions.html" class="contact__link">Terms and Conditions</a>
               </div>
               <div data-netlify-recaptcha="true"></div>
               <button class="btn btn--submit" type="Submit" aria-label="submit form to request a consultation.">Submit</button>
