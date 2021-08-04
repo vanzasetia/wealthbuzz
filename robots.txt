@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-Disallow: /contact
+Disallow: /contact/
 Sitemap: https://wealthbuzz.netlify.app/sitemap.xml
