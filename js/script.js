@@ -1,1 +1,9 @@
-const yearDOM=document.querySelector(".js-year");document.addEventListener("DOMContentLoaded",getCurrentYear);function getCurrentYear(){const currentYear=new Date().getFullYear();yearDOM.textContent=currentYear}
+(function () {
+  'use strict';
+  const getCurrentYear = () => {
+    const yearDOM = document.querySelector('.js-year');
+    const currentYear = new Date().getFullYear();
+    yearDOM.textContent = currentYear;
+  };
+  document.addEventListener('DOMContentLoaded', getCurrentYear);
+})();
