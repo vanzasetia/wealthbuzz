@@ -24,7 +24,6 @@
 - [What I Learned](#what-i-learned)
 - [Technology that I used](#built-with)
 - [Useful Resources](#useful-resources)
-- [Continued Development](#continued-development)
 
 ## About this website
 It's a website of a fictional business advisory company called WealthBuzz. ehis website has 4 pages (*home*, *team*, *contact*, and *terms and conditions* page). It's also responsive.
