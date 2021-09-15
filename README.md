@@ -72,7 +72,3 @@ I also used [Mailgo](https://mailgo.dev/), which is a light JavaScript library f
 * I used [Icomoon](https://icomoon.io) for all the icons and the svg files were optimized using [SVGOMG](https://jakearchibald.github.io/svgomg/)
 * I used [Optimizilla](https://imagecompressor.com) to optimize the size of all image files.
 * I used [0to255](https://www.0to255.com/) to create the color scheme.
-
-
-## Continued development
-I am going to give this website a better color scheme, not just black and white. If you have any feedback about the color, feel free to tell me on [Twitter](https://twitter.com/vanzasetia/status/1422524309738713101?s=19). I want to use hamburger menu for mobile navigation, but currently I can't do it now.
