@@ -15,8 +15,8 @@
 </p>
 
 ## Feedback and Live Review
-* [🌍 Live Review](https://wealthbuzz.netlify.app/)
-* [🐦 Give Feedback on Twitter](https://twitter.com/vanzasetia/status/1422524309738713101?s=19)
+* [Live Review](https://wealthbuzz.netlify.app/)
+* [Give Feedback on Twitter](https://twitter.com/vanzasetia/status/1422524309738713101?s=19)
 
 ## Table of contents
 - [About this website](#about-this-website)
@@ -29,7 +29,7 @@
 It's a website of a fictional business advisory company called WealthBuzz. ehis website has 4 pages (*home*, *team*, *contact*, and *terms and conditions* page). It's also responsive.
 
 ## The Story
-I have to design and code this website from scratch on my Android phone. In my opinion, this is **insane** 😱. **It's completely from scratch!**
+I have to design and code this website from scratch on my Android phone. In my opinion, this is **insane**. **It's completely from scratch!**
 
 The first thing that I did was finding a design inspiration from the internet. I took some designs from multiple website templates.
 
@@ -37,7 +37,7 @@ After that I started to pick up the part that I liked. For example, I took the t
 
 Then, I realized that I need a color scheme for my website. Since, I have no idea at all about design, I decided to use black and white color as the color scheme of my website.
 
-Next, I searched and downloaded the assets, all by myself, to be honest, it's hard. Like for example, I need to find a *consistent* image for team members. I also need a logo. I decided to use `W` letter as my logo and the use HTML for the **WealthBuzz** word. I also have optimized all the images, so the website can load fast 🚀.
+Next, I searched and downloaded the assets, all by myself, to be honest, it's hard. Like for example, I need to find a *consistent* image for team members. I also need a logo. I decided to use `W` letter as my logo and the use HTML for the **WealthBuzz** word. I also have optimized all the images, so the website can load fast.
 
 At this point, I started thinking to add the text content. I could just use a bunch of `lorem ipsum`, but I decided to *copy paste* the content from multiple business advisory website. I don't know that this is allowed or not. Please tell me if this is wrong and why? If not, then **good!**
 
@@ -56,7 +56,7 @@ This project is created using **HTML5**, **CSS3**, and **Sass**. I also use a li
 
 I used one of the form features from [Netlify which Forms Spam Filters](https://docs.netlify.com/forms/spam-filters/), using **Honeypot field** and **reCaptcha**.
 
-I also used [Mailgo](https://mailgo.dev/), which is a light JavaScript library for `mailto` and `tel`. It will give you a nice popup for every `mailto` and `tel` link. I really ❤️ love this library, since it is **easy** and **simple** to use.
+I also used [Mailgo](https://mailgo.dev/), which is a light JavaScript library for `mailto` and `tel`. It will give you a nice popup for every `mailto` and `tel` link. I really love this library, since it is **easy** and **simple** to use.
 <p align="left">
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="" width="auto" height="70px">
   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="" width="auto" height="70px">
